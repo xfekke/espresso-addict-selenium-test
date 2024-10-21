@@ -7,10 +7,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json ; node ./generateReport ; open tests/results/chrome.html",
-    "testOnly": "./node_modules/.bin/cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json",
+    "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json && node ./generateReport && start tests/results/chrome.html",
+    "testOnly": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json",
     "testReport": "node ./generateReport",
-    "openTestReport": "open tests/results/chrome.html"
+    "openTestReport": "start tests/results/chrome.html"
   },
   "keywords": [],
   "license": "ISC",
