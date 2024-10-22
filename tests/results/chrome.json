@@ -1,5 +1,939 @@
 [
   {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "game-displays-an-image;outside-cafe-image",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Outside Cafe image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 614867400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134616398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1587200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see an image of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19677698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23251400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 70629100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "game-displays-an-image",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Game displays an image",
+    "tags": [],
+    "uri": "tests\\features\\displayImage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "help-button;clicking-the-help-button",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Clicking the help button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 604231200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132206800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Help\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see helpful text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see the \"Continue\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38260899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "help-button;clicking-the-continue-button",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Clicking the continue button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 551087100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133372399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I have clicked the \"Help\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click the \"Continue\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be outside of the cafe",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30778099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "help-button;clicking-help-then-continue-in-the-bar",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Clicking help then continue in the bar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 577534199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that I am outside the bar",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I have clicked the \"Help\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Continue\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be inside the bar",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32672800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "help-button",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Help Button",
+    "tags": [],
+    "uri": "tests\\features\\helpButton.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "lose-game;losing-the-game",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Losing the game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 570377899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122469999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Wait\" button until I lose all \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the \"Play again\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50190799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "lose-game",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Lose Game",
+    "tags": [],
+    "uri": "tests\\features\\loseGame.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "changing-scenario-by-moving;walking-inside-the-cafe",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Walking inside the Cafe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 570254200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175555698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Enter the cafe\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be in the \"Cloud Forest Cafe\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24030999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "changing-scenario-by-moving;walking-north",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Walking north",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 619726299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132187098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Go North\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see an \"empty street\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48556000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "changing-scenario-by-moving;walking-north-then-east",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Walking north then east",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 535615600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151849299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click the \"Go North\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click the \"Go East\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be in a \"crowded bar\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29999300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "changing-scenario-by-moving;walking-south",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Walking south",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 543189199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132595298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click the \"Go South\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should be out in the \"country-side\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99060799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "changing-scenario-by-moving;walking-south-then-west",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Walking south then west",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 539934600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157115499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I click the \"Go South\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click the \"Go West\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should see a \"guitarist\" and \"sax player\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18760800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "changing-scenario-by-moving",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Changing scenario by moving",
+    "tags": [],
+    "uri": "tests\\features\\move.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "progress-bar;3-visible-progress-bars",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "3 visible progress bars",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 549404099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166781999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1773200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see \"Health\", \"Money\" and \"Espressos\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45389000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "progress-bar;losing-health",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Losing Health",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 661287400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173589098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should have lost \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26529899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "progress-bar;gaining-espressos",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Gaining Espressos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 546639000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135618099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click the \"Enter the Cafe\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click the \"Buy an espresso\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should have gained \"Espressos\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I should have gained \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should have lost \"Money\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45649300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "progress-bar",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Progress Bar",
+    "tags": [],
+    "uri": "tests\\features\\progressBar.feature"
+  },
+  {
     "description": "  As a Google search engine user\n  I want to be able to find things",
     "elements": [
       {
@@ -14,7 +948,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 554293600
+              "duration": 570118700
             }
           },
           {
@@ -27,7 +961,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 752764800
+              "duration": 368785999
             }
           },
           {
@@ -40,7 +974,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46360699
+              "duration": 47648298
             }
           },
           {
@@ -53,7 +987,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1167013298
+              "duration": 1492313099
             }
           },
           {
@@ -66,7 +1000,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124852300
+              "duration": 78136098
             }
           },
           {
@@ -74,7 +1008,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57907500
+              "duration": 44050400
             }
           }
         ],
@@ -88,5 +1022,710 @@
     "name": "Searching with Google",
     "tags": [],
     "uri": "tests\\features\\search.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "waiting-at-different-scenarios;waiting-outside-the-cafe",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Waiting outside the cafe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 573806699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181557499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I see a descriptive text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the descriptive text should change",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see that I lose \"5\" or \"10\" \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37578900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "waiting-at-different-scenarios;waiting-inside-the-cafe",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Waiting inside the cafe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 598352999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134685399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the \"Cafe\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I see a descriptive text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the descriptive text should change",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I see that I lose \"0\" or \"3\" \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29801999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "waiting-at-different-scenarios;waiting-on-the-empty-street",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Waiting on the empty street",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 530214599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I am on the Empty Street",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I see a descriptive text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the descriptive text should change",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I see that I lose \"0\" or \"5\" \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28403599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "waiting-at-different-scenarios;waiting-inside-the-bar",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Waiting inside the bar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 544189099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am in the Bar",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I see a descriptive text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the descriptive text should change",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I see that I lose \"0\" or \"3\" \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28662400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "waiting-at-different-scenarios;waiting-on-the-country-side",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Waiting on the country-side",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 580506300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I am on the country-side",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I see a descriptive text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the descriptive text should change",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I see that I lose \"0\" or \"5\" \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46615499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "waiting-at-different-scenarios;waiting-by-the-musicians",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Waiting by the musicians",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 650195599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am by the musicians",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I see a descriptive text",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the descriptive text should change",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I see that I lose \"5\" or \"10\" \"Health\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46330400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "waiting-at-different-scenarios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Waiting at different scenarios",
+    "tags": [],
+    "uri": "tests\\features\\waitMechanic.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "wait-mechanic-to-gain-resources;waiting-inside-the-bar-for-resources",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Waiting inside the bar for resources",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 597361499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in the Bar",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should have \"a can of beer\" in my \"bag\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61490700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wait-mechanic-to-gain-resources;waiting-on-the-country-side",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Waiting on the country-side",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 545491299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the country-side",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click the \"Wait\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the \"Wait\" button again",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should have recieved \"5\" Money",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34406299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "wait-mechanic-to-gain-resources",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Wait mechanic to gain resources",
+    "tags": [],
+    "uri": "tests\\features\\waitResource.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "win-game;winning-the-game",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Winning the game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 640241099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120141499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I move around to collect resources",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should that I have 5 \"Espressos\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I should see the \"Play again\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39895000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "win-game",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Win Game",
+    "tags": [],
+    "uri": "tests\\features\\winGame.feature"
   }
 ]

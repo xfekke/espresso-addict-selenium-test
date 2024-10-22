@@ -1,7 +1,7 @@
 Feature: Win Game
 
   Scenario: Winning the game
-    Given that I am outside the "Cafe"
+    Given that I am outside the cafe
     When I move around to collect resources
     # kolla anteckningar angående hur spelet ska spelas
     Then I should that I have 5 "Espressos"

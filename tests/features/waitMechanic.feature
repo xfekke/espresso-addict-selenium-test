@@ -1,14 +1,14 @@
-Feature: Changing scenario by moving
+Feature: Waiting at different scenarios
 
   Scenario: Waiting outside the cafe
-    Given that I am outside the "Cafe"
+    Given that I am outside the cafe
     And I see a descriptive text
     When I click the "Wait" button
     Then the descriptive text should change
     And I see that I lose "5" or "10" "Health"
 
   Scenario: Waiting inside the cafe
-    Given that I am outside the "Cafe"
+    Given that I am outside the cafe
     And I enter the "Cafe"
     And I see a descriptive text
     When I click the "Wait" button
