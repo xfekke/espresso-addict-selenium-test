@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 705402900
+              "duration": 555991500
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 135800298
+              "duration": 130492698
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1538498
+              "duration": 1601899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36597400
+              "duration": 21849100
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20231899
+              "duration": 19524499
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 63256899
+              "duration": 57324200
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 587292300
+              "duration": 602000100
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 197550698
+              "duration": 129522598
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 245596700
+              "duration": 54089200
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15685999
+              "duration": 14103100
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20558699
+              "duration": 19253400
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60648099
+              "duration": 52885900
             }
           }
         ],
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 589293000
+              "duration": 640944399
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50199699
+              "duration": 132439899
             }
           },
           {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 354975699
+              "duration": 46583399
             }
           },
           {
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14524699
+              "duration": 18243799
             }
           },
           {
@@ -224,7 +224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20280999
+              "duration": 19139999
             }
           },
           {
@@ -232,7 +232,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44613699
+              "duration": 70659200
             }
           }
         ],
@@ -251,7 +251,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 595095199
+              "duration": 608238999
             }
           },
           {
@@ -264,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 146027700
+              "duration": 150513998
             }
           },
           {
@@ -277,7 +277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40734400
+              "duration": 48041499
             }
           },
           {
@@ -290,7 +290,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34188299
+              "duration": 29920398
             }
           },
           {
@@ -303,7 +303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12914199
+              "duration": 15709099
             }
           },
           {
@@ -316,7 +316,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23053198
+              "duration": 21091899
             }
           },
           {
@@ -324,7 +324,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60993000
+              "duration": 63821500
             }
           }
         ],
@@ -343,7 +343,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 549228100
+              "duration": 548245799
             }
           },
           {
@@ -356,7 +356,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 123425999
+              "duration": 133868199
             }
           },
           {
@@ -368,8 +368,9 @@
               "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 39516300
+              "status": "failed",
+              "duration": 3098059200,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=129.0.6668.103)\n    at Object.throwDecodedError (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async thenableWebDriverProxy.findElements (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1067:17)"
             }
           },
           {
@@ -381,8 +382,8 @@
               "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:29"
             },
             "result": {
-              "status": "passed",
-              "duration": 13823898
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -394,8 +395,8 @@
               "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 23091098
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -403,7 +404,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 79158599
+              "duration": 13966200
             }
           }
         ],
@@ -422,7 +423,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 544439500
+              "duration": 552490300
             }
           },
           {
@@ -435,7 +436,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 327570099
+              "duration": 161075800
             }
           },
           {
@@ -448,7 +449,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42185199
+              "duration": 42818898
             }
           },
           {
@@ -461,7 +462,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33808799
+              "duration": 31750998
             }
           },
           {
@@ -474,7 +475,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13698800
+              "duration": 14274899
             }
           },
           {
@@ -487,7 +488,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16733700
+              "duration": 15694499
             }
           },
           {
@@ -495,7 +496,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26002599
+              "duration": 48155199
             }
           }
         ],
@@ -525,7 +526,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 591133600
+              "duration": 582307699
             }
           },
           {
@@ -538,7 +539,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 171405899
+              "duration": 137715199
             }
           },
           {
@@ -551,7 +552,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3748639198
+              "duration": 3847103199
             }
           },
           {
@@ -560,11 +561,11 @@
             "line": 6,
             "name": "I should see the \"Play again\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:43"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
             },
             "result": {
               "status": "passed",
-              "duration": 14891699
+              "duration": 13712899
             }
           },
           {
@@ -572,7 +573,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 60674000
+              "duration": 34966800
             }
           }
         ],
@@ -602,7 +603,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 557054599
+              "duration": 566583300
             }
           },
           {
@@ -615,7 +616,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 166225898
+              "duration": 133569899
             }
           },
           {
@@ -628,7 +629,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 116899
+              "duration": 1746599
             }
           },
           {
@@ -637,11 +638,11 @@
             "line": 6,
             "name": "I should see \"Health\", \"Money\" and \"Espressos\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:29"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 58526099
+              "duration": 48803400
             }
           },
           {
@@ -649,7 +650,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 55540399
+              "duration": 47369899
             }
           }
         ],
@@ -668,7 +669,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 556565600
+              "duration": 629495899
             }
           },
           {
@@ -681,7 +682,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 138657799
+              "duration": 156283298
             }
           },
           {
@@ -690,11 +691,11 @@
             "line": 10,
             "name": "I have noted the initial resource values",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:17"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 63265398
+              "duration": 54295899
             }
           },
           {
@@ -707,7 +708,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43201799
+              "duration": 32763600
             }
           },
           {
@@ -716,11 +717,11 @@
             "line": 12,
             "name": "I should have lost \"Health\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:46"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 10793500
+              "duration": 9451099
             }
           },
           {
@@ -728,7 +729,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 51259600
+              "duration": 44914299
             }
           }
         ],
@@ -747,7 +748,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 582776900
+              "duration": 581620599
             }
           },
           {
@@ -760,7 +761,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 160540399
+              "duration": 153875999
             }
           },
           {
@@ -769,11 +770,11 @@
             "line": 16,
             "name": "I have noted the initial resource values",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:17"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 54788398
+              "duration": 44040698
             }
           },
           {
@@ -786,7 +787,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34676499
+              "duration": 35715998
             }
           },
           {
@@ -799,7 +800,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30824799
+              "duration": 30489100
             }
           },
           {
@@ -808,11 +809,11 @@
             "line": 19,
             "name": "I should have gained \"Espressos\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:55"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 9796198
+              "duration": 14754299
             }
           },
           {
@@ -821,11 +822,11 @@
             "line": 20,
             "name": "I should have gained \"Health\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:55"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 9898799
+              "duration": 8565899
             }
           },
           {
@@ -834,11 +835,11 @@
             "line": 21,
             "name": "I should have lost \"Money\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:46"
+              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 9804199
+              "duration": 11623600
             }
           },
           {
@@ -846,7 +847,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 50305599
+              "duration": 21376099
             }
           }
         ],

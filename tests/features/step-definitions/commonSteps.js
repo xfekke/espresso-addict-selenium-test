@@ -16,3 +16,4 @@ When('I click the {string} button', async function (buttonText) {
   const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
   await button.click();
 });
+
