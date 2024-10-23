@@ -2,27 +2,39 @@ import { Given, Then } from '@cucumber/cucumber';
 import { By } from 'selenium-webdriver';
 import { expect } from 'chai';
 
+function getResourceSelector(resourceName) {
+  const resourceMap = {
+    'Health': 'health',
+    'Money': 'money',
+    'Espressos': 'espressocups',
+  };
+
+  const resourceClass = resourceMap[resourceName] || resourceName.toLowerCase().replace(/[^a-z]/g, '');
+  return `section.${resourceClass} span.val`;
+}
+
 Given('I have noted the initial resource values', async function () {
-  // Saves the initial values of the progressbars
-  const healthSelector = 'section.health span.val';
-  const healthElement = await this.driver.findElement(By.css(healthSelector));
-  const healthText = await healthElement.getText();
-  this.initialHealth = parseInt(healthText);
-
-  const moneySelector = 'section.money span.val';
-  const moneyElement = await this.driver.findElement(By.css(moneySelector));
-  const moneyText = await moneyElement.getText();
-  this.initialMoney = parseInt(moneyText);
-
-  const espressoSelector = 'section.espressocups span.val';
-  const espressoElement = await this.driver.findElement(By.css(espressoSelector));
-  const espressoText = await espressoElement.getText();
-  this.initialEspressos = parseInt(espressoText);
+  // Saves value of game-resources to use later
+  const resources = ['Health', 'Money', 'Espressos'];
+  for (const resource of resources) {
+    const selector = getResourceSelector(resource);
+    const element = await this.driver.findElement(By.css(selector));
+    const text = await element.getText();
+    const numericValue = parseInt(text.replace(/[^0-9-]/g, ''), 10);
+    this[`initial${resource}`] = numericValue;
+  }
 });
 
-Then('I should see "Health", "Money" and "Espressos"', async function () {
-  const sections = ['health', 'money', 'espressocups'];
-  for (const sectionClass of sections) {
+Then('I should see {string}, {string} and {string}', async function (resource1, resource2, resource3) {
+  const resources = [resource1, resource2, resource3];
+  for (const resource of resources) {
+    const resourceMap = {
+      'Health': 'health',
+      'Money': 'money',
+      'Espressos': 'espressocups',
+    };
+
+    const sectionClass = resourceMap[resource] || resource.toLowerCase().replace(/[^a-z]/g, '');
     const selector = `section.${sectionClass}`;
     const element = await this.driver.findElement(By.css(selector));
     const isDisplayed = await element.isDisplayed();
@@ -30,34 +42,29 @@ Then('I should see "Health", "Money" and "Espressos"', async function () {
   }
 });
 
-Then('I should have lost "Health"', async function () {
-  const healthSelector = 'section.health span.val';
-  const healthElement = await this.driver.findElement(By.css(healthSelector));
-  const healthText = await healthElement.getText();
-  const currentHealth = parseInt(healthText);
-  expect(currentHealth).to.be.lessThan(this.initialHealth);
+Then('I should have lost {string}', async function (resourceName) {
+  const selector = getResourceSelector(resourceName);
+  const element = await this.driver.findElement(By.css(selector));
+  const text = await element.getText();
+  const currentValue = parseInt(text.replace(/[^0-9-]/g, ''), 10);
+  const initialValue = this[`initial${resourceName}`];
+  expect(currentValue).to.be.lessThan(initialValue);
 });
 
-Then('I should have gained "Espressos"', async function () {
-  const espressoSelector = 'section.espressocups span.val';
-  const espressoElement = await this.driver.findElement(By.css(espressoSelector));
-  const espressoText = await espressoElement.getText();
-  const currentEspressos = parseInt(espressoText);
-  expect(currentEspressos).to.be.greaterThan(this.initialEspressos);
+Then('I should have gained {string}', async function (resourceName) {
+  const selector = getResourceSelector(resourceName);
+  const element = await this.driver.findElement(By.css(selector));
+  const text = await element.getText();
+  const currentValue = parseInt(text.replace(/[^0-9-]/g, ''), 10);
+  const initialValue = this[`initial${resourceName}`];
+  expect(currentValue).to.be.greaterThan(initialValue);
 });
 
-Then('I should have gained "Health"', async function () {
-  const healthSelector = 'section.health span.val';
-  const healthElement = await this.driver.findElement(By.css(healthSelector));
-  const healthText = await healthElement.getText();
-  const currentHealth = parseInt(healthText);
-  expect(currentHealth).to.be.greaterThan(this.initialHealth);
-});
-
-Then('I should have lost "Money"', async function () {
-  const moneySelector = 'section.money span.val';
-  const moneyElement = await this.driver.findElement(By.css(moneySelector));
-  const moneyText = await moneyElement.getText();
-  const currentMoney = parseInt(moneyText);
-  expect(currentMoney).to.be.lessThan(this.initialMoney);
+Then('I should have the same {string} as before', async function (resourceName) {
+  const selector = getResourceSelector(resourceName);
+  const element = await this.driver.findElement(By.css(selector));
+  const text = await element.getText();
+  const currentValue = parseInt(text.replace(/[^0-9-]/g, ''), 10);
+  const initialValue = this[`initial${resourceName}`];
+  expect(currentValue).to.equal(initialValue);
 });
