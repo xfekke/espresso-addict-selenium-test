@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 555991500
+              "duration": 735414800
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 130492698
+              "duration": 197887299
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "I do nothing",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1601899
+              "duration": 14465698
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "I should see an image of the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:5"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 21849100
+              "duration": 44096298
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 7,
             "name": "I should see a descriptive text explaining the scenario",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 19524499
+              "duration": 46792999
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57324200
+              "duration": 51486299
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 602000100
+              "duration": 733358199
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 129522598
+              "duration": 211510800
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 11,
             "name": "I click the \"Enter the cafe\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 54089200
+              "duration": 64882100
             }
           },
           {
@@ -128,11 +128,11 @@
             "line": 12,
             "name": "I should see an image displayed inside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:11"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 14103100
+              "duration": 20624298
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 13,
             "name": "I should see a descriptive text explaining the scenario",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 19253400
+              "duration": 37964100
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 52885900
+              "duration": 37314199
             }
           }
         ],
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 640944399
+              "duration": 746005700
             }
           },
           {
@@ -181,11 +181,11 @@
             "line": 16,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 132439899
+              "duration": 182877899
             }
           },
           {
@@ -194,11 +194,11 @@
             "line": 17,
             "name": "I click the \"Go North\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 46583399
+              "duration": 76533800
             }
           },
           {
@@ -207,11 +207,11 @@
             "line": 18,
             "name": "I should see an image of the empty street",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:17"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 18243799
+              "duration": 30968198
             }
           },
           {
@@ -220,11 +220,11 @@
             "line": 19,
             "name": "I should see a descriptive text explaining the scenario",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 19139999
+              "duration": 44914400
             }
           },
           {
@@ -232,7 +232,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 70659200
+              "duration": 41188900
             }
           }
         ],
@@ -251,7 +251,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 608238999
+              "duration": 741253900
             }
           },
           {
@@ -260,11 +260,11 @@
             "line": 22,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 150513998
+              "duration": 167084199
             }
           },
           {
@@ -273,11 +273,11 @@
             "line": 23,
             "name": "I click the \"Go North\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 48041499
+              "duration": 78488799
             }
           },
           {
@@ -286,11 +286,11 @@
             "line": 24,
             "name": "I click the \"Go East\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 29920398
+              "duration": 61004298
             }
           },
           {
@@ -299,11 +299,11 @@
             "line": 25,
             "name": "I should see an image of a crowded bar",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:23"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 15709099
+              "duration": 30102699
             }
           },
           {
@@ -312,11 +312,11 @@
             "line": 26,
             "name": "I should see a descriptive text explaining the scenario",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 21091899
+              "duration": 29827798
             }
           },
           {
@@ -324,7 +324,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 63821500
+              "duration": 42581899
             }
           }
         ],
@@ -343,7 +343,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 548245799
+              "duration": 731279699
             }
           },
           {
@@ -352,11 +352,11 @@
             "line": 29,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 133868199
+              "duration": 286362500
             }
           },
           {
@@ -365,12 +365,11 @@
             "line": 30,
             "name": "I click the \"Go South\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 3098059200,
-              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=129.0.6668.103)\n    at Object.throwDecodedError (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async thenableWebDriverProxy.findElements (C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1067:17)"
+              "status": "passed",
+              "duration": 60563799
             }
           },
           {
@@ -379,11 +378,11 @@
             "line": 31,
             "name": "I should see an image of the country-side",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:29"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:29"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 31356199
             }
           },
           {
@@ -392,11 +391,11 @@
             "line": 32,
             "name": "I should see a descriptive text explaining the scenario",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 30315200
             }
           },
           {
@@ -404,7 +403,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 13966200
+              "duration": 33066099
             }
           }
         ],
@@ -423,7 +422,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 552490300
+              "duration": 762324800
             }
           },
           {
@@ -432,11 +431,11 @@
             "line": 35,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 161075800
+              "duration": 213760099
             }
           },
           {
@@ -445,11 +444,11 @@
             "line": 36,
             "name": "I click the \"Go South\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 42818898
+              "duration": 76872899
             }
           },
           {
@@ -458,11 +457,11 @@
             "line": 37,
             "name": "I click the \"Go West\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 31750998
+              "duration": 62392700
             }
           },
           {
@@ -471,11 +470,11 @@
             "line": 38,
             "name": "I should see an image of a guitarist and saxplayer",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:35"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:35"
             },
             "result": {
               "status": "passed",
-              "duration": 14274899
+              "duration": 30325199
             }
           },
           {
@@ -484,11 +483,11 @@
             "line": 39,
             "name": "I should see a descriptive text explaining the scenario",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\displayImage.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 15694499
+              "duration": 30531099
             }
           },
           {
@@ -496,7 +495,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 48155199
+              "duration": 37097400
             }
           }
         ],
@@ -516,6 +515,256 @@
     "elements": [
       {
         "description": "",
+        "id": "help-button;clicking-the-help-button",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Clicking the help button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 723068099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258599600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the \"Help\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60630699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see helpful text",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 28052300,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".help-text\"}\n  (Session info: chrome=130.0.6723.69)\n    at Object.throwDecodedError (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async CustomWorld.<anonymous> (file:///C:/Users/Miko/Documents/GitHub/espresso-addict-selenium-test/tests/features/step-definitions/helpButton.js:19:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see the \"Continue\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40688899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "help-button;clicking-the-continue-button",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Clicking the continue button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 714117499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180295398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I have clicked the \"Help\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61802899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click the \"Continue\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45484299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be outside of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28722800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35452699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "help-button;clicking-help-then-continue-in-the-bar",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Clicking help then continue in the bar",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 759645099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that I am outside the bar",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355334299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I have clicked the \"Help\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71555600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the \"Continue\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45876200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be inside the bar",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\helpButton.js:30"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 31055900,
+              "error_message": "AssertionError: expected 'http://localhost:3000/imgs/street.jpg' to include 'bar.jpg'\n    at CustomWorld.<anonymous> (file:///C:/Users/Miko/Documents/GitHub/espresso-addict-selenium-test/tests/features/step-definitions/helpButton.js:33:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36201500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "help-button",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Help Button",
+    "tags": [],
+    "uri": "tests\\features\\helpButton.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "lose-game;losing-the-game",
         "keyword": "Scenario",
         "line": 3,
@@ -526,7 +775,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 582307699
+              "duration": 718326999
             }
           },
           {
@@ -535,11 +784,11 @@
             "line": 4,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 137715199
+              "duration": 181662098
             }
           },
           {
@@ -548,11 +797,11 @@
             "line": 5,
             "name": "I click the \"Wait\" button until I lose all \"Health\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 3847103199
+              "duration": 3844322198
             }
           },
           {
@@ -561,11 +810,11 @@
             "line": 6,
             "name": "I should see the \"Play again\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\loseGame.js:39"
             },
             "result": {
               "status": "passed",
-              "duration": 13712899
+              "duration": 13923598
             }
           },
           {
@@ -573,7 +822,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34966800
+              "duration": 32017799
             }
           }
         ],
@@ -603,7 +852,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 566583300
+              "duration": 696681899
             }
           },
           {
@@ -612,11 +861,11 @@
             "line": 4,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 133569899
+              "duration": 243427600
             }
           },
           {
@@ -625,11 +874,11 @@
             "line": 5,
             "name": "I do nothing",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1746599
+              "duration": 14037498
             }
           },
           {
@@ -638,11 +887,11 @@
             "line": 6,
             "name": "I should see \"Health\", \"Money\" and \"Espressos\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:28"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 48803400
+              "duration": 76175700
             }
           },
           {
@@ -650,7 +899,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 47369899
+              "duration": 35483400
             }
           }
         ],
@@ -669,7 +918,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 629495899
+              "duration": 741274199
             }
           },
           {
@@ -678,11 +927,11 @@
             "line": 9,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 156283298
+              "duration": 164237598
             }
           },
           {
@@ -691,11 +940,11 @@
             "line": 10,
             "name": "I have noted the initial resource values",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 54295899
+              "duration": 76815899
             }
           },
           {
@@ -704,11 +953,11 @@
             "line": 11,
             "name": "I click the \"Wait\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 32763600
+              "duration": 62100599
             }
           },
           {
@@ -717,11 +966,11 @@
             "line": 12,
             "name": "I should have lost \"Health\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 9451099
+              "duration": 31133698
             }
           },
           {
@@ -729,7 +978,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44914299
+              "duration": 38078900
             }
           }
         ],
@@ -748,7 +997,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 581620599
+              "duration": 710941999
             }
           },
           {
@@ -757,11 +1006,11 @@
             "line": 15,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 153875999
+              "duration": 200201099
             }
           },
           {
@@ -770,11 +1019,11 @@
             "line": 16,
             "name": "I have noted the initial resource values",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 44040698
+              "duration": 78426200
             }
           },
           {
@@ -783,11 +1032,11 @@
             "line": 17,
             "name": "I click the \"Enter the cafe\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 35715998
+              "duration": 61265399
             }
           },
           {
@@ -796,11 +1045,11 @@
             "line": 18,
             "name": "I click the \"Buy an espresso\" button",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\commonSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 30489100
+              "duration": 44850899
             }
           },
           {
@@ -809,11 +1058,11 @@
             "line": 19,
             "name": "I should have gained \"Espressos\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 14754299
+              "duration": 31391900
             }
           },
           {
@@ -822,11 +1071,11 @@
             "line": 20,
             "name": "I should have gained \"Health\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 8565899
+              "duration": 29744499
             }
           },
           {
@@ -835,11 +1084,11 @@
             "line": 21,
             "name": "I should have lost \"Money\"",
             "match": {
-              "location": "file:\\C:\\Users\\46700\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\progressBar.js:45"
             },
             "result": {
               "status": "passed",
-              "duration": 11623600
+              "duration": 30245299
             }
           },
           {
@@ -847,7 +1096,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 21376099
+              "duration": 34121100
             }
           }
         ],
@@ -861,5 +1110,161 @@
     "name": "Progress Bar",
     "tags": [],
     "uri": "tests\\features\\progressBar.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "wait-mechanic-to-gain-resources;waiting-inside-the-bar-for-resources",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Waiting inside the bar for resources",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 727681199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in the Bar",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319992900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I wait until I have \"a can of beer\" in my \"bag\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5236025899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should have \"a can of beer\" in my \"bag\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30060998
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31271000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "wait-mechanic-to-gain-resources;waiting-at-the-guitarist-and-saxplayer-scene",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Waiting at the Guitarist and Saxplayer scene",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 678751000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am at the Guitarist and Saxplayer scene",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350830998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I have noted the initial \"Money\" value",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45350700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I wait until I can click the \"Jam with the band\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2106800798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should have received 5 \"Money\"",
+            "match": {
+              "location": "file:\\C:\\Users\\Miko\\Documents\\GitHub\\espresso-addict-selenium-test\\tests\\features\\step-definitions\\waitResource.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30540700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84800300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "wait-mechanic-to-gain-resources",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Wait mechanic to gain resources",
+    "tags": [],
+    "uri": "tests\\features\\waitResource.feature"
   }
 ]
