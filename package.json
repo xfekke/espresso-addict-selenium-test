@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json && node ./generateReport",
-    "testOnly": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json",
+    "testOnly": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json --format @qavajs/console-formatter",
     "testReport": "node ./generateReport",
     "openTestReport": "start tests/results/chrome.html"
   },
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@cucumber/cucumber": "^11.0.1",
+    "@qavajs/console-formatter": "^0.8.0",
     "express": "^4.21.1",
     "selenium-webdriver": "^4.25.0"
   },
