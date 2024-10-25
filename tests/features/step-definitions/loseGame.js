@@ -36,10 +36,10 @@ When('I click the {string} button until I lose all {string}', async function (bu
   }
 });
 
-// Then('I should see the {string} button', async function (buttonText) {
-//   const buttonXpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonText.toLowerCase()}")]`;
+Then('I should see the {string} button', async function (buttonText) {
+  const buttonXpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonText.toLowerCase()}")]`;
 
-//   const button = await this.driver.wait(until.elementLocated(By.xpath(buttonXpath)), 5000);
-//   const isDisplayed = await button.isDisplayed();
-//   expect(isDisplayed).to.be.true;
-// });
+  const button = await this.driver.wait(until.elementLocated(By.xpath(buttonXpath)), 5000);
+  const isDisplayed = await button.isDisplayed();
+  expect(isDisplayed).to.be.true;
+});
