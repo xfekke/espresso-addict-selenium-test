@@ -1,18 +1,44 @@
-Feature: I lose the game by waiting
-  As a user I want to check that I lose the game waiting repeatedly, regardless of the location I am at.
+Feature: Die in all locations
 
-  Scenario Outline: You will lose the game by waiting enough times at the location "<location>"
-    Given that I have started the game by navigating to "http://localhost:3000/"
-    And that I navigated to the position "<location>"
-    And that my position is "<location>"
-    When I wait repeatedly until I die
-    Then my position should be "I died"
+  Scenario: Outside Cafe image
+    Given that I am outside the cafe
+    When I do nothing
+    Then I should see an image of the cafe
+    And I should see a descriptive text explaining the scenario
 
-    Examples:
-      | location            |
-      | outside the cafe    |
-      | inside the cafe     |
-      | on an empty street  |
-      | in a crowded bar    |
-      | in the country-side |
-      | at the concert      |
+  Scenario: Inside Cafe image
+    Given that I am outside the cafe
+    When I click the "Enter the cafe" button
+    Then I should see an image displayed inside the cafe
+    When I click the "Wait" button until I lose all "Health"
+    Then I should see the "Play again" button
+
+  Scenario: Empty Street Image
+    Given that I am outside the cafe
+    When I click the "Go North" button
+    Then I should see an image of the empty street
+    When I click the "Wait" button until I lose all "Health"
+    Then I should see the "Play again" button
+
+  Scenario: Crowded Bar Image
+    Given that I am outside the cafe
+    When I click the "Go North" button
+    And I click the "Go East" button
+    Then I should see an image of a crowded bar
+    When I click the "Wait" button until I lose all "Health"
+    Then I should see the "Play again" button
+
+  Scenario: Country-side Image
+    Given that I am outside the cafe
+    When I click the "Go South" button
+    Then I should see an image of the country-side
+    When I click the "Wait" button until I lose all "Health"
+    Then I should see the "Play again" button
+
+  Scenario: Guitarist and Saxplayer Image
+    Given that I am outside the cafe
+    When I click the "Go South" button
+    And I click the "Go West" button
+    Then I should see an image of a guitarist and saxplayer
+    When I click the "Wait" button until I lose all "Health"
+    Then I should see the "Play again" button
