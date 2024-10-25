@@ -15,5 +15,6 @@ class CustomWorld {
   }
 }
 
-setDefaultTimeout(timeout);
+setDefaultTimeout(60 * 1000); 
+
 setWorldConstructor(CustomWorld);
