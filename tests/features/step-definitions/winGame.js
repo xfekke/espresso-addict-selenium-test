@@ -19,6 +19,8 @@ function getResourceSelector(resourceName) {
     resources[resourceName] || resourceName.toLowerCase().replace(/[^a-z]/g, '');
   return `section.${resourceClass} span.val`;
 }
+
+
 // defined in commonSteps
 // Given that I am outside the cafe
 // When I click the "Go South" button
@@ -61,3 +63,10 @@ Then('I should have {int} {string}', async function (amount, resourceName) {
 
 // defined in loseGame.js
 // And I should see the "Play again" button
+
+Then('I should see the "Play again" button', async function () {
+  const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "play again")]`;
+  const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+  const isDisplayed = await button.isDisplayed();
+  expect(isDisplayed).to.be.true;
+});

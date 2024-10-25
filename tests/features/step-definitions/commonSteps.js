@@ -17,3 +17,9 @@ When('I click the {string} button', async function (buttonText) {
   await button.click();
 });
 
+Then('I should see the {string} button', async function (buttonText) {
+  const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonText.toLowerCase()}")]`;
+  const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+  const isDisplayed = await button.isDisplayed();
+  expect(isDisplayed).to.be.true;
+});

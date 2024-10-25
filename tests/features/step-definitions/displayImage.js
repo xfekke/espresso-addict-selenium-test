@@ -3,9 +3,15 @@ import { By } from 'selenium-webdriver';
 import { expect } from 'chai';
 
 Then('I should see an image of the cafe', async function () {
-  const imageElement = await this.driver.findElement(By.css('img.big-image'));
-  const srcImage = await imageElement.getAttribute('src');
-  expect(srcImage).to.contain('cloud-forest-cafe.jpg');
+  try {
+    const imageElement = await this.driver.findElement(By.css('img.big-image'));
+    const srcImage = await imageElement.getAttribute('src');
+    expect(srcImage).to.contain('cloud-forest-cafe.jpg');
+  } catch (error) {
+    const screenshot = await this.driver.takeScreenshot();
+    this.attach(screenshot, 'image/png');
+    throw error;
+  }
 });
 
 Then('I should see an image displayed inside the cafe', async function () {
