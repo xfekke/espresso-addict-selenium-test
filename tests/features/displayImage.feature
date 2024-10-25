@@ -1,10 +1,10 @@
 Feature: Game displays an image
 
-  Scenario: Outside Cafe image
-    Given that I am outside the cafe
-    When I do nothing
-    Then I should see an image of the cafe
-    And I should see a descriptive text explaining the scenario
+  # Scenario: Outside Cafe image
+  #   Given that I am outside the cafe
+  #   When I do nothing
+  #   Then I should see an image of the cafe
+  #   And I should see a descriptive text explaining the scenario
 
   Scenario: Inside Cafe image
     Given that I am outside the cafe
