@@ -25,5 +25,3 @@ We are using the tools: Selenium Webdriver, Cucumber, and Chai for testing in th
 #### Cucumber HTML Reporter
 - For generating detailed HTML reports of your test results:
   - `npm install cucumber-html-reporter --save-dev`
-
-Test
