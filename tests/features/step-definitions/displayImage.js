@@ -58,5 +58,3 @@ Then('I should see a descriptive text explaining the scenario', async function (
   expect(textContent).to.be.a('string').and.not.empty;
 });
 
-
-
