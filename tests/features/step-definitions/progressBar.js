@@ -68,17 +68,3 @@ Then('I should have the same {string} as before', async function (resourceName) 
   const initialValue = +(this[`initial${resourceName}`]);
   expect(currentValue).to.equal(initialValue);
 });
-
-
-// Then('the value of my {string} should be {float}', async function (statusType, expectedNumValue) {
-//   // Translate statusType (Health, Money, Espressos) to cssSelector (.health, .money., .espressoCups)
-//   let cssSelector = '.' + statusType.toLowerCase();
-//   if (cssSelector === '.espressos') { cssSelector = '.espressocups'; }
-//   // Convert the selector so it only grabs the child element .progress
-//   cssSelector += ' .progress';
-//   // Grab the element and the text inside it and convert to a number (using +)
-//   let element = await this.get(cssSelector);
-//   let numValue = +(await element.getText());
-//   // Check world the value is correct
-//   expect(numValue).to.equal(expectedNumValue);
-// });
